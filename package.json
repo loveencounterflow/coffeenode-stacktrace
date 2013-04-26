@@ -17,5 +17,10 @@
   ],
   "author": "",
   "license": "BSD",
-  "gitHead": "e4bc9904b6bc4f2c73f46b360837489baf2b754e"
+  "gitHead": "e4bc9904b6bc4f2c73f46b360837489baf2b754e",
+  "dependencies": {
+    "stack-trace": "0.0.6",
+    "longjohn": "~0.2.0",
+    "coffee-script": "~1.6.2"
+  }
 }
