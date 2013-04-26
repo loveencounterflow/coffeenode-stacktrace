@@ -1,6 +1,6 @@
 {
   "name": "coffeenode-stacktrace",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Better stacktraces. Colors! Long stacktraces! File contents!",
   "main": "main.coffee",
   "scripts": {
@@ -21,6 +21,9 @@
   "dependencies": {
     "stack-trace": "0.0.6",
     "longjohn": "~0.2.0",
-    "coffee-script": "~1.6.2"
+    "coffee-script": "~1.6.2",
+    "coffeenode-trm": "~0.1.2"
   }
 }
+
+
