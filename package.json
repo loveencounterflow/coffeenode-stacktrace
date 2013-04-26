@@ -1,0 +1,21 @@
+{
+  "name": "coffeenode-stacktrace",
+  "version": "0.0.0",
+  "description": "Better stacktraces. Colors! Long stacktraces! File contents!",
+  "main": "main.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loveencounterflow/coffeenode-stacktrace"
+  },
+  "keywords": [
+    "coffee-script",
+    "stacktrace",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "BSD",
+  "gitHead": "e4bc9904b6bc4f2c73f46b360837489baf2b754e"
+}
