@@ -12,13 +12,12 @@ ruler                     = '—————————————————
 
 #-----------------------------------------------------------------------------------------------------------
 @log_stacktrace = ( error ) ->
-  # log TRM.grey stacktrace.parse error
-  cache = {}
-  # log TRM.red "Error: #{error[ 'message' ]}"
-  log TRM.red error[ 'stack' ]
+  cache   = {}
+  traces  = ( stacktrace.parse error ).reverse()
+  log TRM.grey error[ 'stack' ]
   log()
   #.........................................................................................................
-  for trace in stacktrace.parse error
+  for trace in traces
     route = trace[ 'fileName' ]
     #.......................................................................................................
     if route is '---------------------------------------------'

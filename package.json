@@ -1,6 +1,6 @@
 {
   "name": "coffeenode-stacktrace",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Better stacktraces. Colors! Long stacktraces! File contents!",
   "main": "main.coffee",
   "scripts": {
