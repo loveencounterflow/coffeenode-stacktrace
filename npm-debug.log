@@ -1,0 +1,137 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.4
+4 verbose publish [ '.' ]
+5 verbose read json /Users/flow/cnd/coffeenode-stacktrace/package.json
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/flow/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/9d/r_0w8wh56tbdg_tsmrjzchl40000gn/T/npm-2689/1367348610143-0.6999241567682475/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/9d/r_0w8wh56tbdg_tsmrjzchl40000gn/T/npm-2689/1367348610143-0.6999241567682475/tmp.tgz
+14 verbose folder .
+15 info prepublish coffeenode-stacktrace@0.0.3
+16 silly lockFile 3a52ce78- .
+17 verbose lock . /Users/flow/.npm/3a52ce78-.lock
+18 silly lockFile e34cd8bb-10143-0-6999241567682475-tmp-tgz /var/folders/9d/r_0w8wh56tbdg_tsmrjzchl40000gn/T/npm-2689/1367348610143-0.6999241567682475/tmp.tgz
+19 verbose lock /var/folders/9d/r_0w8wh56tbdg_tsmrjzchl40000gn/T/npm-2689/1367348610143-0.6999241567682475/tmp.tgz /Users/flow/.npm/e34cd8bb-10143-0-6999241567682475-tmp-tgz.lock
+20 silly lockFile 3a52ce78- .
+21 silly lockFile 3a52ce78- .
+22 silly lockFile e34cd8bb-10143-0-6999241567682475-tmp-tgz /var/folders/9d/r_0w8wh56tbdg_tsmrjzchl40000gn/T/npm-2689/1367348610143-0.6999241567682475/tmp.tgz
+23 silly lockFile e34cd8bb-10143-0-6999241567682475-tmp-tgz /var/folders/9d/r_0w8wh56tbdg_tsmrjzchl40000gn/T/npm-2689/1367348610143-0.6999241567682475/tmp.tgz
+24 verbose tar unpack /var/folders/9d/r_0w8wh56tbdg_tsmrjzchl40000gn/T/npm-2689/1367348610143-0.6999241567682475/tmp.tgz
+25 silly lockFile c7d182d6-10143-0-6999241567682475-package /var/folders/9d/r_0w8wh56tbdg_tsmrjzchl40000gn/T/npm-2689/1367348610143-0.6999241567682475/package
+26 verbose lock /var/folders/9d/r_0w8wh56tbdg_tsmrjzchl40000gn/T/npm-2689/1367348610143-0.6999241567682475/package /Users/flow/.npm/c7d182d6-10143-0-6999241567682475-package.lock
+27 silly lockFile e34cd8bb-10143-0-6999241567682475-tmp-tgz /var/folders/9d/r_0w8wh56tbdg_tsmrjzchl40000gn/T/npm-2689/1367348610143-0.6999241567682475/tmp.tgz
+28 verbose lock /var/folders/9d/r_0w8wh56tbdg_tsmrjzchl40000gn/T/npm-2689/1367348610143-0.6999241567682475/tmp.tgz /Users/flow/.npm/e34cd8bb-10143-0-6999241567682475-tmp-tgz.lock
+29 silly gunzTarPerm modes [ '755', '644' ]
+30 silly gunzTarPerm extractEntry package.json
+31 silly gunzTarPerm extractEntry README.md
+32 silly gunzTarPerm extractEntry main.coffee
+33 verbose read json /var/folders/9d/r_0w8wh56tbdg_tsmrjzchl40000gn/T/npm-2689/1367348610143-0.6999241567682475/package/package.json
+34 silly lockFile c7d182d6-10143-0-6999241567682475-package /var/folders/9d/r_0w8wh56tbdg_tsmrjzchl40000gn/T/npm-2689/1367348610143-0.6999241567682475/package
+35 silly lockFile c7d182d6-10143-0-6999241567682475-package /var/folders/9d/r_0w8wh56tbdg_tsmrjzchl40000gn/T/npm-2689/1367348610143-0.6999241567682475/package
+36 silly lockFile e34cd8bb-10143-0-6999241567682475-tmp-tgz /var/folders/9d/r_0w8wh56tbdg_tsmrjzchl40000gn/T/npm-2689/1367348610143-0.6999241567682475/tmp.tgz
+37 silly lockFile e34cd8bb-10143-0-6999241567682475-tmp-tgz /var/folders/9d/r_0w8wh56tbdg_tsmrjzchl40000gn/T/npm-2689/1367348610143-0.6999241567682475/tmp.tgz
+38 verbose from cache /var/folders/9d/r_0w8wh56tbdg_tsmrjzchl40000gn/T/npm-2689/1367348610143-0.6999241567682475/package/package.json
+39 verbose tar pack [ '/Users/flow/.npm/coffeenode-stacktrace/0.0.3/package.tgz',
+39 verbose tar pack   '/var/folders/9d/r_0w8wh56tbdg_tsmrjzchl40000gn/T/npm-2689/1367348610143-0.6999241567682475/package' ]
+40 verbose tarball /Users/flow/.npm/coffeenode-stacktrace/0.0.3/package.tgz
+41 verbose folder /var/folders/9d/r_0w8wh56tbdg_tsmrjzchl40000gn/T/npm-2689/1367348610143-0.6999241567682475/package
+42 silly lockFile c7d182d6-10143-0-6999241567682475-package /var/folders/9d/r_0w8wh56tbdg_tsmrjzchl40000gn/T/npm-2689/1367348610143-0.6999241567682475/package
+43 verbose lock /var/folders/9d/r_0w8wh56tbdg_tsmrjzchl40000gn/T/npm-2689/1367348610143-0.6999241567682475/package /Users/flow/.npm/c7d182d6-10143-0-6999241567682475-package.lock
+44 silly lockFile 3a8400f4-ode-stacktrace-0-0-3-package-tgz /Users/flow/.npm/coffeenode-stacktrace/0.0.3/package.tgz
+45 verbose lock /Users/flow/.npm/coffeenode-stacktrace/0.0.3/package.tgz /Users/flow/.npm/3a8400f4-ode-stacktrace-0-0-3-package-tgz.lock
+46 silly lockFile c7d182d6-10143-0-6999241567682475-package /var/folders/9d/r_0w8wh56tbdg_tsmrjzchl40000gn/T/npm-2689/1367348610143-0.6999241567682475/package
+47 silly lockFile c7d182d6-10143-0-6999241567682475-package /var/folders/9d/r_0w8wh56tbdg_tsmrjzchl40000gn/T/npm-2689/1367348610143-0.6999241567682475/package
+48 silly lockFile 3a8400f4-ode-stacktrace-0-0-3-package-tgz /Users/flow/.npm/coffeenode-stacktrace/0.0.3/package.tgz
+49 silly lockFile 3a8400f4-ode-stacktrace-0-0-3-package-tgz /Users/flow/.npm/coffeenode-stacktrace/0.0.3/package.tgz
+50 silly lockFile b17730f3-feenode-stacktrace-0-0-3-package /Users/flow/.npm/coffeenode-stacktrace/0.0.3/package
+51 verbose lock /Users/flow/.npm/coffeenode-stacktrace/0.0.3/package /Users/flow/.npm/b17730f3-feenode-stacktrace-0-0-3-package.lock
+52 silly lockFile b17730f3-feenode-stacktrace-0-0-3-package /Users/flow/.npm/coffeenode-stacktrace/0.0.3/package
+53 silly lockFile b17730f3-feenode-stacktrace-0-0-3-package /Users/flow/.npm/coffeenode-stacktrace/0.0.3/package
+54 verbose tar unpack /Users/flow/.npm/coffeenode-stacktrace/0.0.3/package.tgz
+55 silly lockFile b17730f3-feenode-stacktrace-0-0-3-package /Users/flow/.npm/coffeenode-stacktrace/0.0.3/package
+56 verbose lock /Users/flow/.npm/coffeenode-stacktrace/0.0.3/package /Users/flow/.npm/b17730f3-feenode-stacktrace-0-0-3-package.lock
+57 silly lockFile 3a8400f4-ode-stacktrace-0-0-3-package-tgz /Users/flow/.npm/coffeenode-stacktrace/0.0.3/package.tgz
+58 verbose lock /Users/flow/.npm/coffeenode-stacktrace/0.0.3/package.tgz /Users/flow/.npm/3a8400f4-ode-stacktrace-0-0-3-package-tgz.lock
+59 silly gunzTarPerm modes [ '755', '644' ]
+60 silly gunzTarPerm extractEntry package.json
+61 silly gunzTarPerm extractEntry README.md
+62 silly gunzTarPerm extractEntry main.coffee
+63 verbose read json /Users/flow/.npm/coffeenode-stacktrace/0.0.3/package/package.json
+64 silly lockFile b17730f3-feenode-stacktrace-0-0-3-package /Users/flow/.npm/coffeenode-stacktrace/0.0.3/package
+65 silly lockFile b17730f3-feenode-stacktrace-0-0-3-package /Users/flow/.npm/coffeenode-stacktrace/0.0.3/package
+66 silly lockFile 3a8400f4-ode-stacktrace-0-0-3-package-tgz /Users/flow/.npm/coffeenode-stacktrace/0.0.3/package.tgz
+67 silly lockFile 3a8400f4-ode-stacktrace-0-0-3-package-tgz /Users/flow/.npm/coffeenode-stacktrace/0.0.3/package.tgz
+68 silly shasum updated bytes 1632
+69 info shasum 16016a6fd254b85ac1edf744225b8b57c884246c
+69 info shasum /Users/flow/.npm/coffeenode-stacktrace/0.0.3/package.tgz
+70 verbose from cache /Users/flow/.npm/coffeenode-stacktrace/0.0.3/package/package.json
+71 verbose chmod /Users/flow/.npm/coffeenode-stacktrace/0.0.3/package.tgz 644
+72 verbose chown /Users/flow/.npm/coffeenode-stacktrace/0.0.3/package.tgz [ 501, 20 ]
+73 silly lockFile 3a52ce78- .
+74 silly publish { name: 'coffeenode-stacktrace',
+74 silly publish   version: '0.0.3',
+74 silly publish   description: 'Better stacktraces. Colors! Long stacktraces! File contents!',
+74 silly publish   main: 'main.coffee',
+74 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+74 silly publish   repository:
+74 silly publish    { type: 'git',
+74 silly publish      url: 'https://github.com/loveencounterflow/coffeenode-stacktrace' },
+74 silly publish   keywords: [ 'coffee-script', 'stacktrace', 'nodejs' ],
+74 silly publish   author: '',
+74 silly publish   license: 'BSD',
+74 silly publish   gitHead: 'e4bc9904b6bc4f2c73f46b360837489baf2b754e',
+74 silly publish   dependencies:
+74 silly publish    { 'stack-trace': '0.0.6',
+74 silly publish      longjohn: '~0.2.0',
+74 silly publish      'coffee-script': '~1.6.2',
+74 silly publish      'coffeenode-trm': '~0.1.2' },
+74 silly publish   readme: '\n\n\n\n# Why?\n\nJavaScript stacktraces are often hard to read:\n\n* They may spit out a lot of data that is densely formatted, so wee need a nicer layout and colorizing\n\tto make the data more readable.\n\n* They do contain file names and line numbers, but it\'s a chore to walk through all the spots one by one\n\twith the text editor. Also, line numbers refer to the JS source of transpiled code (such as resulting from\n\tCoffeeScript files.) So we need to offer peeks into the (transpiled) source (or better still, use Source\n\tMaps) to show the relevant contexts.\n\n* When asynchronous function calls have occurred, JS itselfs only shows the stacktrace concerning the most\n\trecent turn of the event loop. What we need are \'long stacktraces\'.\n\n\n\n\n',
+74 silly publish   readmeFilename: 'README.md',
+74 silly publish   _id: 'coffeenode-stacktrace@0.0.3',
+74 silly publish   dist: { shasum: '16016a6fd254b85ac1edf744225b8b57c884246c' },
+74 silly publish   _from: '.' }
+75 verbose url raw coffeenode-stacktrace
+76 verbose url resolving [ 'https://registry.npmjs.org/', './coffeenode-stacktrace' ]
+77 verbose url resolved https://registry.npmjs.org/coffeenode-stacktrace
+78 info trying registry request attempt 1 at 21:03:42
+79 http PUT https://registry.npmjs.org/coffeenode-stacktrace
+80 http 409 https://registry.npmjs.org/coffeenode-stacktrace
+81 verbose url raw coffeenode-stacktrace
+82 verbose url resolving [ 'https://registry.npmjs.org/', './coffeenode-stacktrace' ]
+83 verbose url resolved https://registry.npmjs.org/coffeenode-stacktrace
+84 info trying registry request attempt 1 at 21:03:43
+85 http GET https://registry.npmjs.org/coffeenode-stacktrace
+86 http 200 https://registry.npmjs.org/coffeenode-stacktrace
+87 error publish fail Cannot publish over existing version.
+87 error publish fail Update the 'version' field in package.json and try again.
+87 error publish fail
+87 error publish fail If the previous version was published in error, see:
+87 error publish fail     npm help unpublish
+87 error publish fail
+87 error publish fail To automatically increment version numbers, see:
+87 error publish fail     npm help version
+88 error System Darwin 12.3.0
+89 error command "node" "/usr/local/bin/npm" "publish"
+90 error cwd /Users/flow/cnd/coffeenode-stacktrace
+91 error node -v v0.10.4
+92 error npm -v 1.2.18
+93 error code EPUBLISHCONFLICT
+94 verbose exit [ 1, true ]
