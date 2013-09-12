@@ -23,7 +23,21 @@
     "coffee-script": "~1.6.2",
     "coffeenode-trm": "~0.1.2",
     "coffeenode-longjohn": "~0.2.0"
-  }
+  },
+  "larq": {
+    "extensions": {},
+    "compile-statements": {},
+    "%cache": {
+      "routes": {
+        "lib/get_stack.js": 1,
+        "lib/main.js": 1,
+        "lib/get-stack.js": 1
+      }
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/loveencounterflow/coffeenode-stacktrace/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "coffeenode-stacktrace@0.0.5"
 }
-
-
