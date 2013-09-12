@@ -1,6 +1,14 @@
 
 
 
+### Note
+
+This module used to work but stopped doing so due to V8 changes (i guess). The new version will be more
+reliable and also faster as it will be using the V8 stack trace API—have a look at `src/get-stack.coffee`
+for a sneak preview.
+
+
+
 
 # Why?
 
